@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#nav {
+    margin-bottom: 20px;
+}
+
+#a{
+    max-width: 100%;
+    float: left;
+}
+
+#profil{
+    margin-top: 25px;
+    margin-left: -30px;
+
+}
+
+#plist {
+    list-style-type: none;
+}
