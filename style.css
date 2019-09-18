@@ -29,6 +29,13 @@ html {
     padding-right: 20px;
 }
 
+a {
+
+
+    text-align: center;
+}
+
+
 @media screen and (max-width: 768px){
 
     #cardArb{
