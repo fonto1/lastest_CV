@@ -38,15 +38,23 @@ a {
 
 @media screen and (max-width: 768px){
 
+    button{
+        z-index: 99;
+    }
+
     #cardArb{
         margin-top: 30px;
     }
 
-
-    a {
-        margin-top: 20px;
-        margin-bottom: 20px;
+    #target a {
+        height: 20px;
+        padding-bottom: 20px;
     }
 
+
+    #cont a{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 
 }
