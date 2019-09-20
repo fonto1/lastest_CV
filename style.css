@@ -71,9 +71,7 @@ a {
         z-index: 99;
     }
 
-    #card2{
-        margin-top: 30px;
-    }
+   
 
     #target a {
         height: 20px;
@@ -95,6 +93,15 @@ a {
         padding-bottom: 20px;
         padding-right: 45px;
     
+    }
+    #card1, #card2 {
+        width: initial;
+        margin: initial;
+    
+    }
+ 
+    #card2{
+        margin-top: 30px;
     }
 
 }
