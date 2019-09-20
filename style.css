@@ -6,7 +6,7 @@ html {
     margin-bottom: 20px;
 }
 
-#me{
+#mePic{
     max-width: 100%;
     float: left;
 }
@@ -14,6 +14,7 @@ html {
 #profil{
     margin-top: 25px;
     margin-left: -30px;
+    
 
 }
 
@@ -21,14 +22,19 @@ html {
     list-style-type: none;
 }
 
+#meCard{
+    margin-bottom: 20px;
+}
 #about{
     border-style: groove;
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
-    margin-top: 20px;
+    margin: 0 auto;
+    width: 65%;
 }
+  
 
 #port{
     margin-top: 20px;
@@ -48,13 +54,19 @@ a {
     margin-top: 20px;
 }
 
+#card1, #card2 {
+    width: 24em;
+    margin: 0 auto;
+
+}
+
 @media screen and (max-width: 768px){
 
     button{
         z-index: 99;
     }
 
-    #cardArb{
+    #card2{
         margin-top: 30px;
     }
 
