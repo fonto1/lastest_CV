@@ -86,4 +86,15 @@ a {
         padding-bottom: 20px;
     }
 
+    #about{
+        margin: initial;
+        width: initial;
+        border-style: groove;
+        padding-top: 20px;
+        padding-left: 45px;
+        padding-bottom: 20px;
+        padding-right: 45px;
+    
+    }
+
 }
