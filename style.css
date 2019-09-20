@@ -27,6 +27,11 @@ html {
     padding-left: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
+    margin-top: 20px;
+}
+
+#port{
+    margin-top: 20px;
 }
 
 a {
@@ -35,6 +40,13 @@ a {
     text-align: center;
 }
 
+#navIcon {
+    color: white;
+}
+
+#jumbotron{
+    margin-top: 20px;
+}
 
 @media screen and (max-width: 768px){
 
