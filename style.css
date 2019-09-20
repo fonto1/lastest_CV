@@ -24,14 +24,16 @@ html {
 
 #meCard{
     margin-bottom: 20px;
+    width: 86%;
+    margin: 0 auto;
 }
 #about{
     border-style: groove;
     padding-top: 20px;
-    padding-left: 45px;
+    padding-left: 35px;
     padding-bottom: 20px;
     padding-right: 45px;
-    margin: 0 auto;
+    margin: 20px auto;
     width: 86%;
 }
   
@@ -87,6 +89,7 @@ a {
     #about{
         margin: initial;
         width: initial;
+        margin-top: 20px;
         border-style: groove;
         padding-top: 20px;
         padding-left: 45px;
@@ -102,6 +105,12 @@ a {
  
     #card2{
         margin-top: 30px;
+    }
+
+    #meCard{
+        margin-bottom: 20px;
+        width: initial;
+        margin: 20 auto;
     }
 
 }
