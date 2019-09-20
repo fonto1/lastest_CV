@@ -52,6 +52,11 @@ a {
 
 #jumbotron{
     margin-top: 20px;
+    padding: 30px;
+}
+
+#jumbotron  a {
+    color:white;
 }
 
 #card1, #card2 {
