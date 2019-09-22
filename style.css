@@ -2,8 +2,14 @@ html {
     scroll-behavior: smooth;
 }
 
+h1 {
+    text-align: center;
+}
 #nav {
-    margin-bottom: 20px;
+    
+    width: 86%;
+    margin: 20px auto;
+
 }
 
 #mePic{
@@ -27,7 +33,7 @@ html {
     width: 86%;
     margin: 0 auto;
 }
-#about{
+#about, #repos{
     border-style: groove;
     padding-top: 20px;
     padding-left: 35px;
@@ -35,6 +41,10 @@ html {
     padding-right: 45px;
     margin: 20px auto;
     width: 86%;
+}
+
+#repos li{
+    list-style: none;
 }
   
 
@@ -53,12 +63,14 @@ a {
 }
 
 #jumbotron{
-    margin-top: 20px;
     padding: 30px;
+    width: 86%;
+    margin: 20px auto;
 }
 
 #jumbotron  a {
     color:white;
+    
 }
 
 #card1, #card2 {
@@ -86,7 +98,7 @@ a {
         padding-bottom: 20px;
     }
 
-    #about{
+    #about, #repos{
         margin: initial;
         width: initial;
         margin-top: 20px;
@@ -97,6 +109,8 @@ a {
         padding-right: 45px;
     
     }
+
+
     #card1, #card2 {
         width: initial;
         margin: initial;
@@ -111,6 +125,19 @@ a {
         margin-bottom: 20px;
         width: initial;
         margin: 20 auto;
+    }
+
+    #nav {
+    
+        width: initial;
+    
+    
+    }
+
+    #jumbotron{
+    
+        width: initial;
+        
     }
 
 }
